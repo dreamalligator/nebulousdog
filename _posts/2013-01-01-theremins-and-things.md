@@ -11,6 +11,5 @@ _\*sigh\*_ have to add \*~ to my .gitignore haha.
 
 Anyways! Keeping with that new years resolution, just posted the [uWave Theremin](https://github.com/antivapor/uwave) pcb and multisim files to GitHub. More to come!
 
-![uwave]({page.img})
 
 
