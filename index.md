@@ -11,9 +11,4 @@ tagline: Antivapor is MechanicalApe
 {% include post_recent.html %}
 </div>
 
-##Projects
-<ul>
-{% for post in site.projects %}
-<li>{{ project.image }} {{ project.title }}<span>{{ project.dates }}</span><p>{{ project.description }}</p></li>
-{% endfor %}
-</ul>
+{% include projects %}

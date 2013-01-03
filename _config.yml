@@ -6,9 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
+# Universal Variables
 title : MechanicalApe
 tagline: Instruments, Sounds, and Etc
 author :
@@ -16,7 +14,7 @@ author :
   email : tom@mechanicalape.com
   github : antivapor
   twitter : antivapor
-  feedburner : feedname
+  feedburner : mechanicalape
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -117,7 +115,7 @@ JB :
   # a hash with key named for the given helper. ex:
   #
   #   pages_list :
-  #     provider : "custom"   
+  #    provider : "custom"   
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
