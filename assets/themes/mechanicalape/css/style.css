@@ -196,7 +196,6 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
-width:100%;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -721,7 +720,8 @@ pre {
   margin-right: 0;
 }
 .unit-article p code,
-.unit-article li code {
+.unit-article li code,
+.unit-article aside code {
   padding: 2px 5px;
   white-space: nowrap;
   background-color: #fff04a;
@@ -897,6 +897,15 @@ pre {
 .the-footer .license p {
   margin-bottom: 0;
 }
+/* my tweaks to merge up
+----------------------------------------------- */
+aside {
+  text-align: right;
+}
+img {
+  max-width: 100%;
+}
+/* ----------------------------------------------- */
 .the-header .unit-head {
   padding: 26px;
 }
@@ -1482,4 +1491,52 @@ hr {
 .right {
   *display: inline;
   float: right;
+}
+/*border color*/
+/*background color*/
+/*original colors: #121621,#6d6d6d,#007200,#ff7600,#aa0000,#ffffff*/
+/*font color*/
+/*message*/
+/*depending on msg length, you might want to change the position*/
+/*use top:70px and right: -100px to line up right next to another ribbon to compare*/
+/*min width (diagonally)*/
+.fork_this {
+  min-width: 300px;
+  height: 34px;
+  background-color: #ff7600;
+  position: absolute;
+  top: 45px;
+  right: -115px;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  z-index: 999;
+  text-align: center;
+  line-height: 2.1em;
+  font-size: 1em;
+  background: -webkit-linear-gradient(top, #ff7600, #ff7600 10%, #ee6500 50%, #ff7600 90%, #ff7600);
+  background: -moz-linear-gradient(top, #ff7600, #ff7600 10%, #ee6500 50%, #ff7600 90%, #ff7600);
+  background: -ms-linear-gradient(top, #ff7600, #ff7600 10%, #ee6500 50%, #ff7600 90%, #ff7600);
+  background: -o-linear-gradient(top, #ff7600, #ff7600 10%, #ee6500 50%, #ff7600 90%, #ff7600);
+  box-shadow: 0px 1px 3px #111;
+}
+.fork_this a:before,
+.fork_this a:link:before,
+.fork_this a:hover:before,
+.fork_this a:active:before,
+.fork_this a:focus:before {
+  content: "Fork me on GitHub";
+  font-family: arial;
+  font-weight: bold;
+  color: #ffffff;
+}
+.fork_this a,
+.fork_this a:link,
+.fork_this a:hover,
+.fork_this a:active,
+.fork_this a:focus {
+  border: 1px dashed #ffffff;
+  height: 50;
+  text-align: center;
+  padding: 5px 100px 5px 100px;
 }

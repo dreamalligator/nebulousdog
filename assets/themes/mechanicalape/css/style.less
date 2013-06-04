@@ -2,6 +2,7 @@
 @import "_module.less";
 @import "_less-base.less";
 
+
 /* LESS VARIABLES
 --------------------------------------------------------------------------------- */
 @main-bg: #ffffff;
@@ -141,7 +142,7 @@ pre {
 		li, dt, dd {
 			h1, h2, h3, h4, h5, p, ul, ol, dl, blockquote, .hasGrid { margin-left: 0; margin-right: 0; }
 		} 
-		p code, li code {
+		p code, li code, aside code {
 			padding: 2px 5px;
 			white-space: nowrap;
 			background-color: #fff04a;
@@ -307,7 +308,14 @@ pre {
 		p { margin-bottom: 0; }
 	}
 }
-
+/* my tweaks to merge up
+----------------------------------------------- */
+aside {text-align:right;}
+img {max-width:100%;}
+/* ----------------------------------------------- */
 @import "_mediaqueries.less";
 @import "_syntaxhighlighter.less";
 @import "_helper.less";
+@import "shape.less";
+
+
