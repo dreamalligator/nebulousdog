@@ -899,7 +899,6 @@ pre {
 }
 /* my tweaks to merge up
 ----------------------------------------------- */
-/*@aside_color:#fdfdfd;*/
 aside {
   left: 840px;
   /*TODO:breaks responsive*/
@@ -1505,12 +1504,10 @@ hr {
   float: right;
 }
 /*border color*/
-/*background color*/
-/*original colors: #121621,#6d6d6d,#007200,#ff7600,#aa0000,#ffffff*/
+/*background color. original colors: #121621,#6d6d6d,#007200,#ff7600,#aa0000,#ffffff*/
 /*font color*/
 /*message*/
-/*depending on msg length, you might want to change the position*/
-/*use top:70px and right: -100px to line up right next to another ribbon to compare*/
+/*depending on msg length, you might want to change the position. use top:70px and right: -100px to line up right next to another ribbon to compare*/
 /*min width (diagonally)*/
 /*shadow*/
 /*fork this gradient*/
@@ -1552,4 +1549,5 @@ hr {
   height: 50;
   text-align: center;
   padding: 5px 100px 5px 100px;
+  outline: 0;
 }
