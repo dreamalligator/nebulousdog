@@ -13,7 +13,10 @@
 @r:-115px;
 /*min width (diagonally)*/
 @mw:300px;
-
+/*shadow*/
+@sd:#111;
+/*fork this gradient*/
+@ftg:"top, @bgc, @bgc 10%, @bgc - @sd 50%, @bgc 90%, @bgc";
 .fork_this{
 min-width:@mw;
 height:34px;
@@ -26,14 +29,14 @@ z-index:999;
 text-align:center;
 line-height:2.1em;
 font-size:1em;
-background: -webkit-linear-gradient(top, @bgc, @bgc 10%, @bgc - #111 50%, @bgc 90%, @bgc);
-background: -moz-linear-gradient(top, @bgc, @bgc 10%, @bgc - #111 50%, @bgc 90%, @bgc);
-background: -ms-linear-gradient(top, @bgc, @bgc 10%, @bgc - #111 50%, @bgc 90%, @bgc);
-background: -o-linear-gradient(top, @bgc, @bgc 10%, @bgc - #111 50%, @bgc 90%, @bgc);
-box-shadow: 0px 1px 3px #111;
+background: -webkit-linear-gradient(@ftg);
+background: -moz-linear-gradient(@ftg);
+background: -ms-linear-gradient(@ftg);
+background: -o-linear-gradient(@ftg);
+box-shadow: 0px 1px 3px @sd;
 }
 .fork_this a:before,
-.fork_this a:link:before,
+/*.fork_this a:link:before,*/
 .fork_this a:hover:before,
 .fork_this a:active:before,
 .fork_this a:focus:before{
@@ -41,9 +44,10 @@ content:@msg;
 font-family:arial;
 font-weight:bold;
 color:@fc;
+text-shadow:0px 0px 8px @sd*3;
 }
 .fork_this a,
-.fork_this a:link,
+/*.fork_this a:link,*/
 .fork_this a:hover,
 .fork_this a:active,
 .fork_this a:focus{

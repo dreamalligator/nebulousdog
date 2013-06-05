@@ -310,7 +310,20 @@ pre {
 }
 /* my tweaks to merge up
 ----------------------------------------------- */
-aside {text-align:right;}
+/*@aside_color:#fdfdfd;*/
+aside {
+left:840px;
+/*TODO:breaks responsive*/
+position:absolute;
+text-align:justify;
+padding-top:10px;
+margin-left:0px;
+line-height:2em;
+width:150px;
+word-wrap:break-word;
+border-width:5px 0px 0px 0px;
+border-style:solid;
+}
 img {max-width:100%;}
 /* ----------------------------------------------- */
 @import "_mediaqueries.less";
