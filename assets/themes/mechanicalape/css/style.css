@@ -923,6 +923,14 @@ img {
   float: left;
   border: 1px;
 }
+footer.unit-foot {
+  clear: left;
+}
+#projects {
+  border-top: 5px solid rgba(21, 25, 25, 0.8);
+  padding-top: 1.625em;
+  position: relative;
+}
 /* ----------------------------------------------- */
 .the-header .unit-head {
   padding: 26px;
