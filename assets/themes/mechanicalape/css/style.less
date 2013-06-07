@@ -326,17 +326,26 @@ aside {
 }
 img {max-width:100%;}
 .square{
-	@pct: 30%;
+	@pct: 32%;
 	height:@pct;
 	width:@pct;
 	float:left;
 	border:1px;
+	padding-right:5px;/*TODO: change to inner padding*/
+	h4{line-height:.9em;margin:0px 0px 10px 0px;}
 }
 footer.unit-foot{clear:left;}
-#projects{
+#projects{/*TODO:combo with #projects_page later*/
     border-top: 5px solid rgba(21, 25, 25, 0.8);
     padding-top: 1.625em;
     position: relative;
+}
+#projects_page{
+	h2,h3{line-height:1em;
+	margin:0px 0px 5px 0px;}
+	h3{
+	margin-left:10px;}
+
 }
 /* ----------------------------------------------- */
 @import "_mediaqueries.less";

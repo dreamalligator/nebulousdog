@@ -918,18 +918,35 @@ img {
   max-width: 100%;
 }
 .square {
-  height: 30%;
-  width: 30%;
+  height: 32%;
+  width: 32%;
   float: left;
   border: 1px;
+  padding-right: 5px;
+  /*TODO: change to inner padding*/
+
+}
+.square h4 {
+  line-height: .9em;
+  margin: 0px 0px 10px 0px;
 }
 footer.unit-foot {
   clear: left;
 }
 #projects {
+  /*TODO:combo with #projects_page later*/
+
   border-top: 5px solid rgba(21, 25, 25, 0.8);
   padding-top: 1.625em;
   position: relative;
+}
+#projects_page h2,
+#projects_page h3 {
+  line-height: 1em;
+  margin: 0px 0px 5px 0px;
+}
+#projects_page h3 {
+  margin-left: 10px;
 }
 /* ----------------------------------------------- */
 .the-header .unit-head {
