@@ -4,7 +4,6 @@ title: "Projects | Open Source Projects"
 description: "Open source projects."
 ---
 {% include JB/setup %}
-
 <div id="projects">
 <h2><a href="https://github.com/antivapor/UCF-Senior-Design">UCF-Senior-Design</a></h2>
 <p>EECS Senior Design at UCF 2012</p>
@@ -19,4 +18,3 @@ description: "Open source projects."
 <h2><a href="https://github.com/antivapor/roanoke">roanoke</a></h2>
 <p>A tasty treatise between English and American IPA's, this is our Roanoke's Lost Pale Ale recipe</p>
 </div>
-

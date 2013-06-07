@@ -585,6 +585,7 @@ pre {
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
+  clear: both;
 }
 /* meta */
 /* HEADER
@@ -915,6 +916,12 @@ aside {
 }
 img {
   max-width: 100%;
+}
+.square {
+  height: 30%;
+  width: 30%;
+  float: left;
+  border: 1px;
 }
 /* ----------------------------------------------- */
 .the-header .unit-head {

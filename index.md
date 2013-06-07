@@ -11,4 +11,4 @@ tagline: Antivapor is MechanicalApe
 {% include post_recent.html %}
 </div>
 
-{% include projects %}
+{% include projects.html %}
