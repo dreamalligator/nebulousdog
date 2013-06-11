@@ -901,18 +901,21 @@ pre {
 /* my tweaks to merge up
 ----------------------------------------------- */
 aside {
-  left: 840px;
-  /*TODO:breaks responsive*/
+  /*left:840px;*/
 
-  position: absolute;
-  text-align: justify;
-  padding-top: 10px;
-  margin-left: 0px;
-  line-height: 2em;
-  width: 150px;
-  word-wrap: break-word;
-  border-width: 5px 0px 0px 0px;
-  border-style: solid;
+  /*display:hidden;*/
+
+  /*position:absolute;*/
+
+  /*text-align:justify;
+	padding-top:10px;
+	margin-left:0px;
+	line-height:2em;
+	width: @awidth;
+	word-wrap:break-word;
+	border-width:5px 0px 0px 0px;
+	border-style:solid;*/
+
 }
 img {
   max-width: 100%;
@@ -988,6 +991,19 @@ footer.unit-foot {
 .the-footer h4 {
   margin-top: 0;
 }
+aside {
+  position: relative;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  line-height: 1.5em;
+  /*width: 100%;*/
+
+  word-wrap: break-word;
+  border-width: 0px 0px 0px 0px;
+  border-style: solid;
+}
 /*
  	IE
 */
@@ -997,6 +1013,19 @@ footer.unit-foot {
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   img {
     max-width: 100%;
+  }
+  aside {
+    position: relative;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 1.5em;
+    /*width: 100%;*/
+  
+    word-wrap: break-word;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
   }
 }
 /*
@@ -1040,6 +1069,19 @@ footer.unit-foot {
   .the-header .unit-head .nav-global .logo a:hover {
     background-color: transparent;
   }
+  aside {
+    position: relative;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
+    line-height: 1em;
+    /*width: 100%;*/
+  
+    word-wrap: break-word;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+  }
 }
 /*
 	Not that old computer layout 
@@ -1074,6 +1116,19 @@ footer.unit-foot {
     float: left;
     padding: 0 0 0 26px;
     width: 420px;
+  }
+  aside {
+    position: absolute;
+    right: 270px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-left: 0px;
+    line-height: 2em;
+    width: 150px;
+    word-wrap: break-word;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    padding-left: 0px;
   }
 }
 /*
@@ -1122,6 +1177,8 @@ footer.unit-foot {
     float: left;
     width: 81%;
     margin-right: -450px;
+    /*aside too*/
+  
   }
   .body .unit-body {
     border-right: 1px solid rgba(0, 0, 0, 0.2);
@@ -1129,6 +1186,8 @@ footer.unit-foot {
     -moz-box-shadow: #ffffff 0px 0px 2px;
     -o-box-shadow: #ffffff 0px 0px 2px;
     margin-right: 450px;
+    /*aside too*/
+  
     padding: 26px 52px;
     min-height: 1050px;
   }
@@ -1145,6 +1204,19 @@ footer.unit-foot {
     line-height: 52px;
     margin-top: 0;
     margin-bottom: 26px;
+  }
+  aside {
+    position: absolute;
+    right: 270px;
+    padding-left: 0px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-left: 0px;
+    line-height: 2em;
+    width: 150px;
+    word-wrap: break-word;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
   }
 }
 pre .c {
