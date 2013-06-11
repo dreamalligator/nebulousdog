@@ -921,17 +921,17 @@ img {
   max-width: 100%;
 }
 .square {
-  height: 32%;
-  width: 32%;
-  float: left;
-  border: 1px;
-  padding-right: 5px;
+  /*@pct: 32%;*/
+
+  /*height:@pct;
+	width:@pct;
+	float:left;
+	border:1px;
+	padding-right:5px;*/
   /*TODO: change to inner padding*/
 
-}
-.square h4 {
-  line-height: .9em;
-  margin: 0px 0px 10px 0px;
+  /*h4{line-height:.9em;margin:0px 0px 10px 0px;}*/
+
 }
 footer.unit-foot {
   clear: left;
@@ -1004,6 +1004,19 @@ aside {
   border-width: 0px 0px 0px 0px;
   border-style: solid;
 }
+.square {
+  height: 100%;
+  width: 100%;
+  float: left;
+  border: 1px;
+  padding-right: 5px;
+  /*TODO: change to inner padding*/
+
+}
+.square h4 {
+  line-height: .9em;
+  margin: 0px 0px 10px 0px;
+}
 /*
  	IE
 */
@@ -1026,6 +1039,10 @@ aside {
     word-wrap: break-word;
     border-width: 0px 0px 0px 0px;
     border-style: solid;
+  }
+  .square {
+    height: 47%;
+    width: 47%;
   }
 }
 /*
@@ -1081,6 +1098,10 @@ aside {
     word-wrap: break-word;
     border-width: 0px 0px 0px 0px;
     border-style: solid;
+  }
+  .square {
+    height: 30%;
+    width: 30%;
   }
 }
 /*

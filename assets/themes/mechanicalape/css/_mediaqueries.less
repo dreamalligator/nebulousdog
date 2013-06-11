@@ -56,6 +56,15 @@
 		border-width:0px 0px 0px 0px;
 		border-style:solid;
 	}
+	.square{
+		@pct: 100%;
+		height:@pct;
+		width:@pct;
+		float:left;
+		border:1px;
+		padding-right:5px;/*TODO: change to inner padding*/
+		h4{line-height:.9em;margin:0px 0px 10px 0px;}
+	}
 /*
  	IE
 */
@@ -78,6 +87,11 @@
 		word-wrap:break-word;
 		border-width:0px 0px 0px 0px;
 		border-style:solid;
+	}
+	.square{
+		@pct: 47%;
+		height:@pct;
+		width:@pct;
 	}
 }
 /*
@@ -130,6 +144,11 @@
 		word-wrap:break-word;
 		border-width:0px 0px 0px 0px;
 		border-style:solid;
+	}
+	.square{
+		@pct: 30%;
+		height:@pct;
+		width:@pct;
 	}
 } // min-width: 768px
 /*
