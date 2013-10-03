@@ -13,6 +13,4 @@ Check out my [bichir](https://en.wikipedia.org/wiki/Polypterus_senegalus) snaggi
 
 <img src="/images/bichir.jpg" />
 
-edit: the local crane family is doing a-okay. check out the witt'l boid.
-
-<img src="/images/cranes.jpg" />
+edit: the local crane family is doing a-okay.
