@@ -5,6 +5,8 @@ description: "Open source projects."
 ---
 {% include JB/setup %}
 <div id="projects_page">
+<h2><a href="https://github.com/antivapor/lunchbeat">lunchbeat</a></h2>
+<p>1bit groovebox</p>
 <h2><a href="https://github.com/antivapor/UCF-Senior-Design">UCF-Senior-Design</a></h2>
 <p>EECS Senior Design at UCF 2012</p>
 <h3><a href="https://github.com/antivapor/uwave">uwave</a></h3>
