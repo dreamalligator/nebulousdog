@@ -11,6 +11,11 @@
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+		<link rel="stylesheet" href="/components/leaflet/leaflet.css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="/components/leaflet/leaflet.ie.css" />
+	<![endif]-->
+	 <script src="/components/leaflet/leaflet.js"></script>
 </head>
 <body>
 
@@ -54,6 +59,9 @@
 						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
 						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
 						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
+
+						<li class="inaturalist"><a href="http://www.inaturalist.org/observations/{{ site.author.inaturalist }}">iNaturalist</a></li>
+						<li class="schemer"><a href="https://www.schemer.com/profile/{{ site.author.schemer }}/want">Schemer</a></li>
 					</ul>
 				</div>
 				<!-- posts -->
