@@ -730,7 +730,6 @@ pre {
 .unit-article img {
   display: block;
   margin-left: auto;
-  margin-left: auto;
 }
 .unit-article img.left {
   margin-right: 16px;
@@ -919,6 +918,9 @@ aside {
 }
 img {
   max-width: 100%;
+}
+.entry-content p img {
+  width: 100%;
 }
 .square {
   /*@pct: 32%;*/
@@ -1675,4 +1677,8 @@ hr {
   text-align: center;
   padding: 5px 100px 5px 100px;
   outline: 0;
+}
+/* ----------------------------------------------- */
+div#map {
+  height: 180px;
 }
