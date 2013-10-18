@@ -49,7 +49,7 @@ We weren't greeted by any 'Welcome to California' signs, but the beautiful Sierr
 <img src="/images/greenyosemitelichen.jpg" />
 An upcoming post will have our geotagged photos!
 
-We spent two days in Yosemite at the [Yosemite Creek Campground](https://en.wikipedia.org/wiki/Yosemite_Creek_Campground). We did some serious hiking.
+We spent two days in Yosemite at the [Yosemite Creek Campground](https://en.wikipedia.org/wiki/Yosemite_Creek_Campground), and did some serious hiking.
 
 ###San Francisco!
 First time crossing the Bay Bridge.
