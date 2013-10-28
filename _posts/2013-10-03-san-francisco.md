@@ -60,7 +60,7 @@ Thank you [Adelaide](http://www.adelaidehostel.com/)!
 ###Stoop Cat
 My kitty Sif and I were vagrants! I wish I had a pic of me walking her on Haight.
 
-###Beach,Sutro Baths, Etc
+###Beach, Sutro Baths, Etc
 Logan, Hana, and I did some serious exploring of the city the first week here until my friends had to head back home for school.
 <img src="/images/sutrobaths.jpg" />
 
