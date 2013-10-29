@@ -325,7 +325,27 @@ aside{
 	border-width:5px 0px 0px 0px;
 	border-style:solid;*/
 }
-img {max-width:100%;}
+div.image_set{width:100%;display:inline-block;}
+img{
+	max-width:100%;
+}
+img.small{
+		max-width:20%;
+}
+.col-2{
+	max-width: 40%;
+	&:extend(.left);
+}
+.col-3{
+	max-width: 25%;
+	&:extend(.left);
+}
+.col-4{
+	//max-width: 20%;
+	max-height: 200px;
+	padding-right:4%;
+	&:extend(.left);
+}
 .entry-content p img {width:100%}
 .square{
 	/*@pct: 32%;*/

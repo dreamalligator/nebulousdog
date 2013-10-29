@@ -916,8 +916,25 @@ aside {
 	border-style:solid;*/
 
 }
+div.image_set {
+  width: 100%;
+  display: inline-block;
+}
 img {
   max-width: 100%;
+}
+img.small {
+  max-width: 20%;
+}
+.col-2 {
+  max-width: 40%;
+}
+.col-3 {
+  max-width: 25%;
+}
+.col-4 {
+  max-height: 200px;
+  padding-right: 4%;
 }
 .entry-content p img {
   width: 100%;
@@ -1622,7 +1639,10 @@ hr {
 #page {
   *zoom: 1;
 }
-.left {
+.left,
+.col-2,
+.col-3,
+.col-4 {
   *display: inline;
   float: left;
 }
