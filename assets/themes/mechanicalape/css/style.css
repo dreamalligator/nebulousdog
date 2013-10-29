@@ -936,6 +936,11 @@ img.small {
   max-height: 200px;
   padding-right: 4%;
 }
+#profile_pic {
+  float: right;
+  max-width: 30%;
+  padding-left: 20px;
+}
 .entry-content p img {
   width: 100%;
 }
