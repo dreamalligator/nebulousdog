@@ -29,6 +29,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.7.0)
     kramdown (1.0.2)
+    leaflet-js (0.6.beta4)
     liquid (2.5.2)
     maruku (0.6.1)
       syntax (>= 1.0.0)
@@ -47,3 +48,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  leaflet-js
