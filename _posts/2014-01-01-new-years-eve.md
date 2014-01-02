@@ -8,4 +8,5 @@ image: paintcreature.jpg
 ---
 {% include JB/setup %}
 Fonda and I are doing a drawing a day for 2014. Here's the one I made last night.
+
 <img src="/images/paintcreature.jpg" />
