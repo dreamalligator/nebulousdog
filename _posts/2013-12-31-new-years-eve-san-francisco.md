@@ -4,7 +4,7 @@ title: "new years eve, san francisco"
 description: "hello 2014"
 category: verbage
 tags: [new years, nofx, melvins, party, sutro, san francisco, resolutions, tides, fogcam, shows, garden, greenhouse]
-image: 
+image: greenhouse.jpg
 github: 
 ---
 {% include JB/setup %}

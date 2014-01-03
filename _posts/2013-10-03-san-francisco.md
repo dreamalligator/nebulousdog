@@ -4,7 +4,7 @@ title: "San Francisco"
 description: "Westbound, San Francisco, and other things I feel like talking about."
 category: verbage
 tags: [San Francisco, camping, westbound, observations, Yosemite, Mount Tamalpais, 3D printering, Noisebridge, Mono Lake, stoop kids, beach, hobos, hostels, friends, garden, cats, maps]
-image: stoopkids.png
+image: firsttimebaybridge.jpg
 github: 
 ---
 {% include JB/setup %}
