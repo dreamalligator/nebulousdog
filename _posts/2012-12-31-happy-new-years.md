@@ -4,6 +4,8 @@ title: "Happy New Years"
 description: "Survived the apocalypse so I can do more projects!"
 category: verbage
 tags: [resolutions]
+image: 
+github: 
 ---
 {% include JB/setup %}
 

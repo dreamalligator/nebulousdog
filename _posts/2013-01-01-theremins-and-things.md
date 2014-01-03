@@ -4,7 +4,8 @@ title: "Theremins and Things"
 description: "Posted theremin pcb and sim files on github."
 category: verbage
 tags: [theremin, pcb, schematic, ignore]
-img: uwave.png
+image: uwave.png
+github: 
 ---
 {% include JB/setup %}
 _\*sigh\*_ have to add \*~ to my .gitignore haha. 

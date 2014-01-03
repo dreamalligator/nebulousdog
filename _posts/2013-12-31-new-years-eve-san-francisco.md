@@ -5,6 +5,7 @@ description: "hello 2014"
 category: verbage
 tags: [new years, nofx, melvins, party, sutro, san francisco, resolutions, tides, fogcam, shows, garden, greenhouse]
 image: 
+github: 
 ---
 {% include JB/setup %}
 Hi from [Fogcam](http://www.fogcam.org), the oldest webcam still running. That's me waving!
