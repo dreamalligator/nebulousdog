@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "jellyfish"
-description: ""
+description: "no one tells me the theme of the day"
 category: drawing a day
 tags: [jellyfish]
 image: jellyfish.jpg
