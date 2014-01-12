@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "new years day"
+title: "pyramid science"
 description: "mesoamerican pyramid and black science inspired drawing"
 category: drawing a day
 tags: [drawings, turtle, pyramids, comics]
