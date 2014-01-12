@@ -8,4 +8,4 @@ image: paperplusplus.jpg
 github: 
 ---
 {% include JB/setup %}
-<img src="images/paperplusplus.jpg">
+<img src="/images/paperplusplus.jpg">

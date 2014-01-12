@@ -8,4 +8,4 @@ image: fruitbeast.jpg
 github: 
 ---
 {% include JB/setup %}
-<img src="images/fruitbeast.jpg">
+<img src="/images/fruitbeast.jpg">

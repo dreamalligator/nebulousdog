@@ -8,4 +8,4 @@ image: juxtasuperposition.jpg
 github: 
 ---
 {% include JB/setup %}
-<img src="images/juxtasuperposition.jpg">
+<img src="/images/juxtasuperposition.jpg">

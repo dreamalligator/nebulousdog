@@ -8,4 +8,4 @@ image: jellyfish.jpg
 github: 
 ---
 {% include JB/setup %}
-<img src="images/jellyfish.jpg">
+<img src="/images/jellyfish.jpg">

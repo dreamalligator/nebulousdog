@@ -8,4 +8,4 @@ image: poolmonster.jpg
 github: 
 ---
 {% include JB/setup %}
-<img src="images/poolmonster.jpg">
+<img src="/images/poolmonster.jpg">
