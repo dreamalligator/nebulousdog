@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "new years eve"
+title: "paint creature"
 description: "Fonda and I are doing a drawing a day for 2014"
 category: drawing a day
 tags: [spray paint, synthesizer, drawings]
