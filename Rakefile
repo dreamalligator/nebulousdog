@@ -69,6 +69,7 @@ task :post do
     post.puts "github: "
     post.puts "---"
     post.puts "{% include JB/setup %}"
+    post.puts "{% include post_matter %}"
   end
 end # task :post
 
