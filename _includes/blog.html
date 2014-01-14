@@ -1,13 +1,13 @@
 <!-- <h1 class="entry-title">Blog - {% if post.title %}<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>{% endif %}</h1> -->
 <div class="entry-content">{{ content }}</div>
-
+{% assign imgpath = '/images/' %}
 <ul class="entries">
   {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">
       <h3>{{ post.title }}</h3>
       {% if post.images[0] %}
-        <img src="/images/{{post.images[0]}}">
+        <img src="{{imgpath}}{{post.images[0]}}">
       {% endif %}
     </a>
   </li>
