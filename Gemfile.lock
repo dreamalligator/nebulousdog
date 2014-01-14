@@ -33,6 +33,8 @@ GEM
     liquid (2.5.2)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    mini_magick (3.7.0)
+      subexec (~> 0.2.1)
     posix-spawn (0.3.6)
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
@@ -40,6 +42,7 @@ GEM
     rdiscount (1.6.8)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
+    subexec (0.2.3)
     syntax (1.0.0)
     yajl-ruby (1.1.0)
 
@@ -49,3 +52,4 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   leaflet-js
+  mini_magick
