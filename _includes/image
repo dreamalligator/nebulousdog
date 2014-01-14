@@ -4,15 +4,15 @@ usage:
 {% include image src="post.images[0]" %}
 {% include image src="whatnot.jpg" %}
 {% endcomment %}
-{% assign path="/images/" %}
+{% assign imgpath="/images/" %}
 {% if include.src %}
-<img src="{{ path }}{{include.src}}">
+<img src="{{ imgpath }}{{include.src}}">
 {% elsif post.images[0] != NULL %}
 {% for image in post.images %}
-<img src="{{ path }}{{ post.images[0] }}">
+<img src="{{ imgpath }}{{ post.images[0] }}">
 {% endfor %}
 {% elsif page.images[0] != NULL %}
 {% for image in page.images %}
-<img src="{{ path }}{{ image }}">
+<img src="{{ imgpath }}{{ image }}">
 {% endfor %}
 {% endif %}
