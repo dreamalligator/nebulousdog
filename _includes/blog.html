@@ -6,7 +6,9 @@
   <li>
     <a href="{{ post.url }}">
       <h3>{{ post.title }}</h3>
-      {% if post.image %}<img src="/images/{{ post.image }}" style="width:150px;display:block;margin-left:0;"/>{% endif %}
+      {% if post.images[0] %}
+        <img src="/images/{{post.images[0]}}">
+      {% endif %}
     </a>
   </li>
   {% endfor %}

@@ -1,1 +1,1 @@
-{% comment %}matter goes here{% endcomment %}
+{% include image %}

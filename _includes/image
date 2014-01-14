@@ -1,0 +1,18 @@
+{% comment %}
+update image path to your rel path 
+usage:
+{% include image src="post.images[0]" %}
+{% include image src="whatnot.jpg" %}
+{% endcomment %}
+{% assign path="/images/" %}
+{% if include.src %}
+<img src="{{ path }}{{include.src}}">
+{% elsif post.images[0] != NULL %}
+{% for image in post.images %}
+<img src="{{ path }}{{ post.images[0] }}">
+{% endfor %}
+{% elsif page.images[0] != NULL %}
+{% for image in page.images %}
+<img src="{{ path }}{{ image }}">
+{% endfor %}
+{% endif %}

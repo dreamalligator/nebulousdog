@@ -4,7 +4,7 @@ title: "new years eve, san francisco"
 description: "hello 2014"
 category: verbage
 tags: [new years, nofx, melvins, party, sutro, san francisco, resolutions, tides, fogcam, shows, garden, greenhouse]
-image: greenhouse.jpg
+images: [greenhouse.jpg, drosera.jpg, axolotl.jpg]
 github: 
 ---
 {% include JB/setup %}
@@ -18,6 +18,4 @@ Gonna see a show tonight .. just saw Voodoo Glow Skulls and Infected Mushroom an
 The tides are supposed to be at their highest and lowest today ([King Tides](http://www.californiakingtides.org)), so on my way to [Sutro](http://antivapor.github.io/verbage/2013/10/03/san-francisco/#beach_sutro_baths_etc) and Lands End to explore normally unwalkable ground.
 
 Peace & Love homies, TC
-<img src="/images/greenhouse.jpg" />
-<img src="/images/drosera.jpg" />
-<img src="/images/axolotl.jpg" />
+{% include post_matter %}

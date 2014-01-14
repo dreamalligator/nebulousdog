@@ -4,7 +4,7 @@ title: "cranes and water bears"
 description: "Biking, my bichir, the search for tardigrades, and a dead crane."
 category: verbage
 tags: [water bear, tardigrade, nature, journal, crane, observations, bichir]
-image: bichir.jpg
+images: [bichir.jpg]
 github: 
 ---
 {% include JB/setup %}
@@ -12,6 +12,5 @@ I found a [dead sandhill crane](http://www.inaturalist.org/observations/284624).
 
 Check out my [bichir](https://en.wikipedia.org/wiki/Polypterus_senegalus) snagging a minnow! He's got wittle primitive lungs and is super brutal, and I love him for it.
 
-<img src="/images/bichir.jpg" />
-
 edit: the local crane family is doing a-okay.
+{% include post_matter %}

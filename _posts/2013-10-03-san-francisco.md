@@ -4,7 +4,7 @@ title: "San Francisco"
 description: "Westbound, San Francisco, and other things I feel like talking about."
 category: verbage
 tags: [San Francisco, camping, westbound, observations, Yosemite, Mount Tamalpais, 3D printering, Noisebridge, Mono Lake, stoop kids, beach, hobos, hostels, friends, garden, cats, maps]
-image: firsttimebaybridge.jpg
+images: [firsttimebaybridge.jpg]
 github: 
 ---
 {% include JB/setup %}
@@ -67,3 +67,4 @@ Logan, Hana, and I did some serious exploring of the city the first week here un
 
 There's really been too much adventure since; whether making new friends, camping at [Mt. Tamalpais](https://en.wikipedia.org/wiki/Mount_Tamalpais), starting school, going to the [Zoo](http://www.sfzoo.org), city gardening, pubcrawling, mopeds, shows, [Noisebridge](https://www.noisebridge.net), art, hobos, cats, fog, you name it, I love this crazy city.
 <img src="/images/moebius.jpg" />
+{% comment %}{% include post_matter %}{% endcomment %}
