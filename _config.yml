@@ -127,3 +127,72 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+
+  # Settings for Jekyll-Picture-Tag
+  # See https://github.com/robwierzbowski/jekyll-picture-tag
+  #
+# picture:
+#   source: images
+#   output: generated
+#   markup: picturefill
+#   presets:
+#     # Full width pictures
+#     default:
+#       ppi: [1, 1.5]
+#       attr:
+#         class: blog-full
+#         itemprop: image
+#       source_lrg:
+#         media: "(min-width: 40em)"
+#         width: 700
+#       source_med:
+#         media: "(min-width: 30em)"
+#         width: 450
+#       source_default:
+#         width: 350
+#         height: 200
+#     # Half width pictures
+#     half:
+#       ppi: [1, 1.5]
+#       attr:
+#         data-location: "{{location}}"
+#         data-active: nil
+#       source_lrg:
+#         media: "(min-width: 40em)"
+#         width: 400
+#       source_med:
+#         media: "(min-width: 30em)"
+#         width: 250
+#       source_default:
+#         width: 350
+#     # Self-set resolution sources. Useful if you don't want a 1:1 image size to dppx ratio.
+#     gallery:
+#       source_wide_hi:
+#         media: "(min-width: 40em) and (min-resolution: 1.5dppx)"
+#         width: 900
+#         height: 600
+#       source_wide:
+#         media: "(min-width: 40em)"
+#         width: 600
+#         height: 400
+#       source_default:
+#         width: 250
+#         height: 250
+
+  # Jekyll-Image-Tag
+  # See https://github.com/robwierzbowski/jekyll-image-tag
+  #
+image:
+  source: images
+  output: generated
+  presets:
+    # Proportional preset
+    users:
+      attr:
+        class: user-portrait
+        itemprop: image
+      width: 350
+    # Scaled and cropped preset
+    half:
+      width: 400
+      height: 400
