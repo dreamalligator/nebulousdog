@@ -2,6 +2,7 @@
 update image path to your rel path 
 usage:
 {% include image %}
+{% include image link="http://antivapor.net" %}
 {% include image src="whatnot.jpg" %}
 {% include image src="bear.jpg" link="http://antivapor.net" %}
 {% endcomment %}
@@ -10,14 +11,14 @@ usage:
 <a href="{{include.link}}">
 {% endif %}
 {% if include.src %}
-<img src="{{ imgpath }}{{include.src}}">
+{% image {{include.src}} %}
 {% elsif post.images[0] != NULL %}
 {% for image in post.images %}
-<img src="{{ imgpath }}{{ post.images[0] }}">
+{% image {{ image }} %}
 {% endfor %}
 {% elsif page.images[0] != NULL %}
 {% for image in page.images %}
-<img src="{{ imgpath }}{{ image }}">
+{% image {{ image }} %}
 {% endfor %}
 {% endif %}
 {% if include.link %}
