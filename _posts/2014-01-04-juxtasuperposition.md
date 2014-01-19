@@ -4,7 +4,7 @@ title: "juxtasuperposition"
 description: "theme of day was juxtaposition"
 category: drawing a day
 tags: [juxtaposition, superposition principle, theme of the month]
-images: [juxtasuperposition.jpg]
+images: []
 github: 
 ---
 {% include JB/setup %}
