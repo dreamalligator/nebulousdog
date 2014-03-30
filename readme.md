@@ -1,7 +1,5 @@
-#[MechanicalApe](https://antivapor.github.io)
-The last year I meant to publish all my work, and finish off all my projects, but bam! its new years now.. everything went by really fast. So, the new years resolution is to get all those projects finished up and keep 'em coming.
-
-Coming soon.
+#[Digitalvapor](http://antivapor.net)
+Etc verbage about plants and code, maybe some drawings, and whatever else.
 
 ##License
-This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/). 
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
