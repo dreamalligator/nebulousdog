@@ -13,3 +13,4 @@ Thumbs.db
 .gitignore
 images/*
 .git_backup*
+_etc
