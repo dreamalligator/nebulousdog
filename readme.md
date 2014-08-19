@@ -2,6 +2,7 @@
 Etc verbage about plants and code, maybe some drawings, and whatever else.
 
 #Dev
+* `git clone --recursive https://github.com/digitalvapor/digitalvapor.git`
 * `grunt server` to run locally, watch for changes and regenerate.
 * `grunt deploy` to deploy.
 
