@@ -13,4 +13,4 @@ output
 *.pyc
 desktop.ini
 *.log
-plugins
+node_modules

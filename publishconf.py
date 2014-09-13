@@ -22,6 +22,7 @@ TRANSLATION_FEED_ATOM = None
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
 DISQUS_SITENAME = "digitalvapor"
 GOOGLE_ANALYTICS = "UA-44642246-3"
+
+LIVERELOAD = False
