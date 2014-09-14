@@ -3,8 +3,12 @@ Date: 2014-05-27
 Author: Fonda Tong
 Slug: strawberry-tree-mango-jam
 Category: food
+<<<<<<< HEAD
+Tags: recipes, strawberry trees, foraging
+=======
 Tags: recipes, strawberry trees, foraging, fruit, jam, nature
 Preview: strawberryingredients.png
+>>>>>>> 55942b0a9c3da8e2e0bc5357cb54a3423dbea290
 
 Hey! Let me tell you about the Strawberry Tree.
 
@@ -45,6 +49,25 @@ After cooking and straining the jam, the texture becomes velvety smooth. [[Tom](
 
 **Strawberry Tree Jam with Mango and Lemon**
 
+<<<<<<< HEAD
+[See notes at bottom of recipe]
+```
+Ingredients:
+600g *Arbutus unedo*, Strawberry Tree, fruit
+250g Water
+150g Sugar
+70g  Mango
+     Zest of One Lemon
+     Juice of One Lemon
+
+Equipment:
+Large Heavy Bottomed Pot
+Glass Jars
+Medium Saucepan
+Mesh Sieve or Nut Milk Bag
+Wooden Spoon
+```
+=======
 |      | Ingredients                             | Equipment                  |
 | ----:|:--------------------------------------- |:-------------------------- |
 | 600g | *Arbutus unedo*, Strawberry Tree, fruit | Large Heavy Bottomed Pot   |
@@ -56,6 +79,7 @@ After cooking and straining the jam, the texture becomes velvety smooth. [[Tom](
 
 See notes at bottom of recipe[^1].
 
+>>>>>>> 55942b0a9c3da8e2e0bc5357cb54a3423dbea290
 After washing your fruit put a large pot of water on to boil. This will be used to clean your jars. Once the water comes to a boil, place in your jars and lids in for at least 15 minutes. It's good practice to leave the jars in the hot water until you are ready to put your finished product in.
 
 Cut your *Arbutus unedo* fruit into halves and dice your mango. Then place the fruit into the saucepan with the water. Simmer over medium-low heat until the fruit is soft and mashable. If need be add more water. The mixture should be thick, but not dry.
@@ -68,7 +92,17 @@ Pour your jam into the hot jars, and place the lids on top of the jars but do no
 
 This jam will keep in the fridge for a couple of weeks. Enjoy!
 
+<<<<<<< HEAD
+**Notes:**
+
+* Make sure you wash your fruit extremely well. Since [Tom] and I gathered the fruit from trees growing along the side of a residential road we wanted to minimize contaminants.
+
+* The amount of fruit that I used for this recipe is based on the amount that we gathered. You can scale the recipe up or down to fit your needs. This amount of fruit yielded about 1.5 small glass jars.
+
+* Since I did not have a sieve I strained the pulp little by little through a nut milk bag. It worked out quite well in the end.
+=======
 [^1]:
     * Make sure you wash your fruit extremely well. Since [[Tom](#)] and I gathered the fruit from trees growing along the side of a residential road we wanted to minimize contaminants.
     * The amount of fruit that I used for this recipe is based on the amount that we gathered. You can scale the recipe up or down to fit your needs. This amount of fruit yielded about 1.5 small glass jars.
     * Since I did not have a sieve I strained the pulp little by little through a nut milk bag. It worked out quite well in the end.
+>>>>>>> 55942b0a9c3da8e2e0bc5357cb54a3423dbea290
