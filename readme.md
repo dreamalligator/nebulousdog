@@ -3,8 +3,9 @@ Etc verbage about plants and code, maybe some drawings, and whatever else.
 
 #Dev
 * `git clone --recursive https://github.com/digitalvapor/digitalvapor.git`
-* `npm install`
+* `npm install` (first time, for grunt dependencies)
 * `grunt server` to run locally, watch for changes and regenerate. Or simply `grunt`, because this is the default task.
+* `grunt deploy_init` (first time, or if accidently delete the `.git` folder in `output`)
 * `grunt deploy` to deploy.
 
 ##Article and Page Workflow
