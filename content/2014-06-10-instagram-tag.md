@@ -3,6 +3,7 @@ Date: 2014-06-10
 Slug: instagram-tag
 Category: code
 Tags: instagram, python, pelican, plugins, liquid
+Author: Tom Spalding
 
 Hello world! I had to say that. ;) Today, I want to show you my addition to the [liquid tags](https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags) plugin.
 
