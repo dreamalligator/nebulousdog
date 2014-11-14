@@ -1,12 +1,13 @@
 Title: Plot Orion Constellation Bounds
 Slug: draw-orion-bounds
 Date: 2014-11-04
+Modified: 2014-11-14
 Tags: orion, constellation, python, descartes, astronomy, space, polygons, geometric
 Category: code
 Image: orion.png
 Author: Tom Spalding
 
-The following code plots the [IAU constellation bounds](http://www.iau.org/public/themes/constellations/) of Orion. You can find similar astronomical notebooks in the [notebook](https://github.com/digitalvapor/asterisms#notebooks) section of the [asterisms](https://github.com/digitalvapor/asterisms) project I recently began.
+The following code plots the [IAU constellation bounds](http://www.iau.org/public/themes/constellations/) of Orion. You can find the code and similar astronomical notebooks in the [notebook](https://github.com/digitalvapor/asterisms#notebooks) section of the [asterisms](https://github.com/digitalvapor/asterisms) project I recently began.
 
 The below text contains a set of coordinates that defines the boundaries of the constellations in the sky. The format is: `HH MM SS.SSSS| DD.DDDDDDD|XXX`
 
@@ -68,7 +69,7 @@ Example:
 
     all_points = zip(ra_list,dec_list,abbrev_list)
 
-All of the points are zipped together into a list of tuples.
+All of the lines are parsed and then the points are zipped together into a list of tuples.
 
     :::python
 
@@ -86,7 +87,7 @@ All of the points are zipped together into a list of tuples.
     hours_formatter = FuncFormatter(pretty_hours)
     degrees_formatter = FuncFormatter(pretty_degrees)
 
-The above snippet pretty-fies the axes for the below scatterplot.
+The above snippet pretty-fies the axes for the below scatterplot. [Right ascension](https://en.wikipedia.org/wiki/Right_ascension) is the angular distance measured eastward along the celestial equator from the vernal equinox. We flip the x-axis to see the constellations as we would on earth. If we wanted to see the coordinates on a [celestial sphere](https://en.wikipedia.org/wiki/Celestial_sphere) as we would look at a globe, we would not use `gca().invert_xaxis()`.
 
     :::python
 
