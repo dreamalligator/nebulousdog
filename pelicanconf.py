@@ -54,7 +54,9 @@ STATIC_PATHS = [IMAGE_PATH,'audio','extra/robots.txt','cv/spalding_resume.pdf']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},
 'cv/spalding_resume.pdf': {'path': 'spalding_resume.pdf'},}
 PATH = 'content'
+#NOTEBOOK_DIR = 'notebooks'
 OUTPUT_PATH = 'output'
+MARKUP = ('md','ipynb')
 #-----------
 # Deploy Related
 #-----------
@@ -86,7 +88,7 @@ ADDRESS = (    ('name',SITENAME),
 # PLUGIN RELATED
 #-----------
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['share_post','gravatar','grid','sitemap','liquid_tags.img','liquid_tags.gram']#'optimize_images''thumbnailer',,'gzip_cache','minify',, 'liquid_tags.video','liquid_tags.youtube', 'liquid_tags.vimeo','liquid_tags.include_code', 'liquid_tags.notebook'
+PLUGINS = ['share_post','gravatar','grid','sitemap','liquid_tags.img','liquid_tags.gram','ipynb']#'optimize_images','thumbnailer','gzip_cache','minify', 'liquid_tags.video','liquid_tags.youtube', 'liquid_tags.vimeo','liquid_tags.include_code','liquid_tags.notebook'
 DISQUS_SITENAME = "digitalvapor"
 GOOGLE_ANALYTICS = "UA-44642246-3"
 ETSY_API_KEY = '8z7rq5zh48tkg3mv4be7avle'
@@ -107,7 +109,6 @@ SITEMAP = {
 #         'pages': 'monthly'
 #     }
 }
-#EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 THUMBNAIL_SIZES = {
 #	'thumb_square': '150',
 	'thumb': '150x?',
@@ -117,3 +118,5 @@ THUMBNAIL_SIZES = {
 	'max': '2000x?',
 }
 #THUMBNAIL_KEEP_NAME = False
+#IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output'))]
+#IPYNB_EXTEND_STOP_SUMMARY_TAGS
