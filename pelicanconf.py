@@ -67,8 +67,6 @@ OUTPUT_RETENTION = ('.git')
 #-----------
 THEME = 'themes/icosahedron'
 SYMBOL = u'mandala.png'
-ABOUTUS_INTRO = "We like space and nature, gadgets and cats, coffee and jasmine lattes. We're bad at skateboarding, but good at drawing skateboarders being eaten by a gigantic arthropod, who weaves vortex cocoons and poops beautiful crystals."
-ABOUTUS_BODY = "We're currently starting small with the \"business\" and we take lots of comic book and coffee breaks, sorry. We propogate carnivorous plants, and succulents, and sell terrariums. [<a href='star-bit'>Star-Bit</a>] is great at printmaking and drawing yetis, and [<a href='digitalvapor'>digitalvapor</a>] likes to draw hairy things with lots of dots. [<a href='digitalvapor'>digitalvapor</a>] is also working on some gadgets that will be pretty dope, but they're still in the development phase. Thanks for taking a look!"
 BITCOIN = '15g4JLeCc5xW7sq3W3VjYNENXD7sAUzZ46'
 DOGECOIN = 'DJWZMij6LDsTXyMqzK8oKLhq2BKZAmyNjN'
 LITECOIN = 'LUGzXpgKHvnPUw7BzB6xH8PHF8PA9LfzEX'
@@ -77,13 +75,6 @@ DONATE = (('฿',BITCOIN),
           ('Ł',LITECOIN),
           ('Ð',DOGECOIN),)
 LIVERELOAD = True
-ADDRESS = (    ('name',SITENAME),
-               ('streetAddress','Farallon Islands'),
-               ('addressLocality','San Francisco'),
-               ('addressRegion','CA'),
-               # ('postalCode',''),
-               # ('addressCountry',''),
-          )
 #-----------
 # PLUGIN RELATED
 #-----------
