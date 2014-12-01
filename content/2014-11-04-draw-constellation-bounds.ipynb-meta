@@ -1,0 +1,9 @@
+Title: Plot Orion Constellation Bounds
+Slug: draw-orion-bounds
+Date: 2014-11-04
+Modified: 2014-12-01
+Tags: orion, constellation, python, descartes, astronomy, space, polygons, geometric
+Category: code
+Image: orion.png
+Author: Tom Spalding
+Notebook: digitalvapor/asterisms/blob/master/notebooks/draw-bounds.ipynb
