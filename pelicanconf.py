@@ -60,6 +60,8 @@ MARKUP = ('md','ipynb')
 #-----------
 # Deploy Related
 #-----------
+# TODO: globbing patterns ignore leading periods, include a fix for the
+# 		ipynb checkpoints folder
 IGNORE_FILES = (['themes/icosahedron/static/css/sass/*'])
 OUTPUT_RETENTION = ('.git')
 #-----------
