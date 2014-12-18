@@ -81,7 +81,7 @@ LIVERELOAD = True
 # PLUGIN RELATED
 #-----------
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['share_post','gravatar','grid','sitemap','liquid_tags.img','liquid_tags.gram','ipynb']#'optimize_images','thumbnailer','gzip_cache','minify'
+PLUGINS = ['share_post','gravatar','grid','sitemap','liquid_tags.img','liquid_tags.gram','ipynb','render_math']#'optimize_images','thumbnailer','gzip_cache','minify'
 DISQUS_SITENAME = "digitalvapor"
 GOOGLE_ANALYTICS = "UA-44642246-3"
 ETSY_API_KEY = '8z7rq5zh48tkg3mv4be7avle'
