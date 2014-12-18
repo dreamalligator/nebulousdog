@@ -1,7 +1,7 @@
-Title: Plot All Constellation Bounds
+Title: Coloring IAU Constellations by Family
 Slug: draw-all-bounds
 Date: 2014-11-29
-Tags: constellations, python, charts, polygons, algorithms, history, maps, notebooks
+Tags: constellations, python, charts, polygons, algorithms, history, maps, notebooks, cartography
 Category: code
 Image: bounds_family.png
 Author: Tom Spalding
