@@ -56,7 +56,7 @@ EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},
 PATH = 'content'
 #NOTEBOOK_DIR = 'notebooks'
 OUTPUT_PATH = 'output'
-MARKUP = ('md','ipynb')
+MARKUP = ('md','ipynb', 'rst')
 #-----------
 # Deploy Related
 #-----------
