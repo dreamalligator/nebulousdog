@@ -15,7 +15,7 @@ With this being the first day of research, I believe that the first documented c
 
 .. [#] C. Repin, `Sur la culture de la Morille <http://www.biodiversitylibrary.org/item/41549#page/606/mode/1up>`_, *Revue générale des sciences pures et appliquées* **12**: 595–96. (1901)
 
-.. [#] R. Ower, `Notes on the Development of the Morel Ascocarp: Morchella esculenta <http://www.jstor.org/stable/3792639>`_, Mycologia Vol. 74, No. 1 (Jan. - Feb., 1982), pp. 142-144
+.. [#] R. Ower, `Notes on the Development of the Morel Ascocarp: Morchella esculenta <http://www.jstor.org/stable/3792639>`_, Mycologia Vol. **74**, No. 1 (Jan. - Feb., 1982), pp. 142-144
 
 Gary Mills talks about this in the Scientific American Frontiers episode *About All You Can Eat*. [#]_ Chedd Angier introduces the first lab cultivated morels by Gary Mill's team at about ``37:25``.
 
