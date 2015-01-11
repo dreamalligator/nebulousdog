@@ -5,6 +5,7 @@ Slug: mikes-cheesecake
 Category: food
 Tags: recipes, pie, cheesecake
 Preview: mikescheesecake.png
+Summary: Our buddy [[Tyler](http://soft-tilt.sx)] made us cheesecake from his ancient family recipe, *Mike's Cheesecake*. It was really delicious, so here it is to share.
 
 Our buddy [[Tyler](http://soft-tilt.sx)] made us cheesecake from his ancient family recipe[^1], *Mike's Cheesecake*.
 
