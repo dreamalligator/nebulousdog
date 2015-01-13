@@ -3,14 +3,15 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'StarBit and DigitalVapor'
-AUTHOR_EMAIL = u'contact@antivapor.net'
-AUTHOR_GPLUS = '106765113086639417627' #Your Google Plus profile ID, see https://support.google.com/webmasters/answer/2539557?hl=en
+AUTHOR_EMAIL = u'antivapor@gmail.com'
+AUTHOR_GPLUS = u'106765113086639417627' #Your Google Plus profile ID, see https://support.google.com/webmasters/answer/2539557?hl=en
 SITENAME = u'Digital Vapor'
 SITEURL = 'http://antivapor.net'
 HEADERTITLE = u'Digital Vapor and Star Bits'
-DESCRIPTION = u'We sell terrariums, gadgets, and art.'
-TIMEZONE = 'America/Los_Angeles'
+DESCRIPTION = u'We blog about code, food, astronomy, and nature.'
+TIMEZONE = u'America/Los_Angeles'
 DEFAULT_LANG = u'en'
+GITHUB = u'digitalvapor'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = None
@@ -25,7 +26,7 @@ LINKS =  (('DigitalVapor on iNaturalist', 'http://inaturalist.org/observations/d
 			('Fork The Cookbook','http://forkthecookbook.com/antivapor'))
 
 # Social widget, use font-awesome name for first item in tuple
-SOCIAL = (('github-alt', 'https://github.com/digitalvapor'),
+SOCIAL = (('github-alt', 'https://github.com/'+GITHUB),
 		      #('google-plus','#google-plus'),
           ('twitter', 'http://twitter.com/antivapor'),
           ('rss',SITEURL+'/feeds/all.atom.xml'),
@@ -81,7 +82,10 @@ LIVERELOAD = True
 # PLUGIN RELATED
 #-----------
 PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = ['share_post','gravatar','grid','sitemap','liquid_tags.img','liquid_tags.gram','ipynb','render_math']#'optimize_images','thumbnailer','gzip_cache','minify'
+# keep optimizing plugins at the end at the end
+PLUGINS = ['share_post', 'gravatar', 'grid', 'sitemap', 'liquid_tags.img', 'liquid_tags.gram', 'ipynb', 'render_math']
+# plugins I sometimes opt-out of for speed or just experimenting with:
+#'optimize_images','thumbnailer','gzip_cache','minify', 'w3c_validate', 'representative_image'
 DISQUS_SITENAME = "digitalvapor"
 GOOGLE_ANALYTICS = "UA-44642246-3"
 ETSY_API_KEY = '8z7rq5zh48tkg3mv4be7avle'
@@ -113,3 +117,6 @@ THUMBNAIL_SIZES = {
 #THUMBNAIL_KEEP_NAME = False
 #IPYNB_STOP_SUMMARY_TAGS = [('div', ('class', 'input')), ('div', ('class', 'output'))]
 #IPYNB_EXTEND_STOP_SUMMARY_TAGS
+
+GITHUB_ACTIVITY_FEED = 'https://github.com/'+GITHUB+'.atom'
+#GITHUB_ACTIVITY_MAX_ENTRIES = 10

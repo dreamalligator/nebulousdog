@@ -137,6 +137,10 @@ module.exports = function(grunt) {
          git tag -f production',
         cwd: 'output',
       },
+      deploy_push: { //handy for when no new commits but want to push anyway, such as when the last push failed due to internet
+        cmd: 'git push -f origin +master:refs/heads/master',
+        cwd: 'output',
+      },
       // toggle_python2: 'npm config set python /usr/bin/python2.7 -g',
       // toggle_python3: 'npm config set python /usr/bin/python3.4 -g',
       // production_test: 'NODE_ENV=production node server.js',
@@ -162,6 +166,7 @@ module.exports = function(grunt) {
 
   //grunt.resisterTask('optimize',['exec:optimize_images']);
   grunt.registerTask('deploy_init',['exec:deploy_init']);
+  grunt.registerTask('deploy_push',['exec:deploy_push']);
   grunt.registerTask('pelican',['exec:pelican']);
   grunt.registerTask('test', ['jshint', 'qunit']);
   grunt.registerTask('server', ['express','open','watch']);
