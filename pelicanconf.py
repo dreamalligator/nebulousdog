@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'StarBit and DigitalVapor'
+AUTHOR = u'Tom'
 AUTHOR_EMAIL = u'antivapor@gmail.com'
 AUTHOR_GPLUS = u'106765113086639417627' #Your Google Plus profile ID, see https://support.google.com/webmasters/answer/2539557?hl=en
-SITENAME = u'Digital Vapor'
-SITEURL = 'http://antivapor.net'
-HEADERTITLE = u'Digital Vapor and Star Bits'
-DESCRIPTION = u'We blog about code, food, astronomy, and nature.'
+SITENAME = u'Nebulous Dog'
+SITEURL = 'http://nebulousdog.com'
+HEADERTITLE = u'Nebulous Dog'
+DESCRIPTION = u'a nebulous dodger'
 TIMEZONE = u'America/Los_Angeles'
 DEFAULT_LANG = u'en'
 GITHUB = u'digitalvapor'
@@ -22,25 +22,12 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS =  (('DigitalVapor on iNaturalist', 'http://inaturalist.org/observations/digitalvapor'),
-		      ('StarBit on iNaturalist', 'http://inaturalist.org/observations/star_bit'),
 			('Fork The Cookbook','http://forkthecookbook.com/antivapor'))
 
 # Social widget, use font-awesome name for first item in tuple
 SOCIAL = (('github-alt', 'https://github.com/'+GITHUB),
-		      #('google-plus','#google-plus'),
           ('twitter', 'http://twitter.com/antivapor'),
-          ('rss',SITEURL+'/feeds/all.atom.xml'),
-          #('facebook','#facebook'),
-          #('cloud','#soundcloud'),
-          #('flickr','#flickr'),
-          #('pagelines','#inaturalist'),
-          #('globe','#inaturalist'),
-          #('vimeo-square','https://vimeo.com/digitalvapor'),
-          ('youtube-play','https://youtube.com/user/fondasaurusrex'),)
-
-MENUITEMS = (#('About Us','pages/about.html'),
-			       #('Contact','pages/contact.html'),
-			       ('Products','https://starvapor.etsy.com'),)
+          ('rss', SITEURL+'/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 #SUMMARY_MAX_LENGTH = None
@@ -50,7 +37,6 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 IMAGE_PATH = 'images' #used by Thumbnailer
 THUMBNAIL_DIR = IMAGE_PATH #used by Thumbnailer, I just want it all in images
-#CODE_DIR = 'code' #used by liquid_tags.include_code
 STATIC_PATHS = [IMAGE_PATH,'audio','extra/robots.txt','cv/spalding_resume.pdf']
 EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},
 'cv/spalding_resume.pdf': {'path': 'spalding_resume.pdf'},}
@@ -63,27 +49,20 @@ MARKUP = ('md','ipynb', 'rst')
 #-----------
 # TODO: globbing patterns ignore leading periods, include a fix for the
 # 		ipynb checkpoints folder
-IGNORE_FILES = (['themes/icosahedron/static/css/sass/*'])
+# IGNORE_FILES = (['themes/icosahedron/static/css/sass/*'])
 OUTPUT_RETENTION = ('.git')
 #-----------
 # THEME RELATED
 #-----------
-THEME = 'themes/icosahedron'
+# THEME = 'themes/icosahedron'
 SYMBOL = u'mandala.png'
-BITCOIN = '15g4JLeCc5xW7sq3W3VjYNENXD7sAUzZ46'
-DOGECOIN = 'DJWZMij6LDsTXyMqzK8oKLhq2BKZAmyNjN'
-LITECOIN = 'LUGzXpgKHvnPUw7BzB6xH8PHF8PA9LfzEX'
-# TODO: If Fontawesome gets Litecoin and Dogecoin icons, I'll update this to include those fonts.
-DONATE = (('฿',BITCOIN),
-          ('Ł',LITECOIN),
-          ('Ð',DOGECOIN),)
 LIVERELOAD = True
 #-----------
 # PLUGIN RELATED
 #-----------
-PLUGIN_PATH = '../pelican-plugins'
+PLUGIN_PATHS = ['../pelican-plugins']
 # keep optimizing plugins at the end at the end
-PLUGINS = ['share_post', 'gravatar', 'grid', 'sitemap', 'liquid_tags.img', 'liquid_tags.gram', 'ipynb', 'render_math']
+# PLUGINS = ['share_post', 'gravatar', 'grid', 'sitemap', 'liquid_tags.img', 'liquid_tags.gram', 'ipynb', 'render_math']
 # plugins I sometimes opt-out of for speed or just experimenting with:
 #'optimize_images','thumbnailer','gzip_cache','minify', 'w3c_validate', 'representative_image'
 DISQUS_SITENAME = "digitalvapor"
