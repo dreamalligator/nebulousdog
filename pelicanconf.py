@@ -42,7 +42,7 @@ EXTRA_PATH_METADATA = {'extra/robots.txt': {'path': 'robots.txt'},
 'cv/spalding_resume.pdf': {'path': 'spalding_resume.pdf'},}
 PATH = 'content'
 #NOTEBOOK_DIR = 'notebooks'
-OUTPUT_PATH = 'output'
+OUTPUT_PATH = '/var/www/html/nebulousdog.com'
 MARKUP = ('md','ipynb', 'rst')
 #-----------
 # Deploy Related
