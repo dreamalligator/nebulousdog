@@ -1,0 +1,1 @@
+Something in my brain says everything has to be open sourced. Yesterday I wrote about how I changed over from using Pelican to Ghost. Today I'm going to cover how you can keep releasing all of your posts on Github if you're like me.
