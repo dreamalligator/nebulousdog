@@ -46,5 +46,3 @@ if [ -z "$DROPLET_ID" ]; then
 else
   echo "droplet id found: "$DROPLET_ID
 fi
-
-echo "done."

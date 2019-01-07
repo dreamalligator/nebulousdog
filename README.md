@@ -12,11 +12,15 @@ cd ~/projects/catcobralizard
 
 ## Install Deps
 
+install node deps
+
 ```bash
 yarn
 ```
 
 ## Deploy
+
+deploys a digitalocean ghost droplet  
 
 ```bash
 bash ./deploy.sh
@@ -28,17 +32,15 @@ refs:
 
 ## Destroy
 
+destroys droplet
+
 ```bash
 bash ./destroy.sh
 ```
 
-## Duplicate
-
-```bash
-bash ./duplicate.sh
-```
-
 ## Backup
+
+creates a droplet snapshot
 
 ```bash
 bash ./backup.sh
