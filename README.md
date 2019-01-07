@@ -19,7 +19,7 @@ yarn
 ## Deploy
 
 ```bash
-sh ./deploy.sh
+bash ./deploy.sh
 ```
 
 refs:
@@ -29,13 +29,19 @@ refs:
 ## Destroy
 
 ```bash
-sh ./destroy.sh
+bash ./destroy.sh
 ```
 
 ## Duplicate
 
 ```bash
-sh ./duplicate.sh
+bash ./duplicate.sh
+```
+
+## Backup
+
+```bash
+bash ./backup.sh
 ```
 
 ## License

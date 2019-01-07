@@ -17,18 +17,15 @@ if [ -z "$DIGITALOCEAN_TOKEN" ]; then
 
   read -p 'token: ' DIGITALOCEAN_TOKEN
 
-  echo "DIGITALOCEAN_TOKEN="$DIGITALOCEAN_TOKEN >> TOKENS
+  echo "export DIGITALOCEAN_TOKEN="$DIGITALOCEAN_TOKEN >> TOKENS
 
   echo 'deploying ghost droplet to digital ocean...'
 
-  curl -X POST -H 'Content-Type: application/json' \
+  curl -X POST "https://api.digitalocean.com/v2/droplets" \
+    -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer '$DIGITALOCEAN_TOKEN'' -d \
     '{"name":"catcobralizard","region":"sfo2","size":"4gb","image":"ghost-18-04"}' \
-    "https://api.digitalocean.com/v2/droplets" \
-    | python3 -c "import sys, json; print(json.load(sys.stdin)['droplets'][0]['id'])" \
-    | read DROPLET_ID
-
-  echo "DROPLET_ID="$DROPLET_ID >> TOKENS
+    | python3 -c "import sys, json; print(json.load(sys.stdin)['droplets'][0]['id'])"
 else
   echo "token found: "$DIGITALOCEAN_TOKEN
 fi
@@ -38,14 +35,14 @@ source TOKENS
 if [ -z "$DROPLET_ID" ]; then
   echo "no droplet id saved, retrieving..."
 
-  curl -X GET -H 'Content-Type: application/json' \
+  curl -X GET "https://api.digitalocean.com/v2/droplets" \
+    -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer '$DIGITALOCEAN_TOKEN'' -d \
     '{"name":"catcobralizard"}' \
-    "https://api.digitalocean.com/v2/droplets" \
     | python3 -c "import sys, json; print(json.load(sys.stdin)['droplets'][0]['id'])" \
     | read DROPLET_ID
 
-  echo "DROPLET_ID="$DROPLET_ID >> TOKENS
+  echo "export DROPLET_ID="$DROPLET_ID >> TOKENS
 else
   echo "droplet id found: "$DROPLET_ID
 fi
